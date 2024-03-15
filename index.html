@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Login</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Gaming Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h1>Login</h1>
-	<form action="/login" method="post">
-		<label for="email">Email:</label><br>
-		<input type="email" id="email" name="email" required><br>
-		<label for="password">Password:</label><br>
-		<input type="password" id="password" name="password" required><br>
-		<input type="submit" value="Login">
-	</form>
-	<p>Don't have an account? <a href="/signup">Sign up</a></p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to My Gaming Web!</h1>
+        <p>Here you can find the best games and play them online.</p>
+        <a href="games.html" class="button">Play Now</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Gaming Web. All rights reserved.</p>
+    </footer>
 </body>
 </html>
